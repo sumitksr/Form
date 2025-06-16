@@ -8,7 +8,7 @@ export default function App() {
     city: "",
     state: "",
     postalCode: "",
-    country: "India",
+    country: "",
     phone: "",
     email: "",
     addressType: "Home",
@@ -21,7 +21,12 @@ export default function App() {
     "Canada",
     "Australia",
     "Germany",
+    "Russia",
+    "Nepal",
+    "Mexico",
+    "Brazil",
   ];
+  
 
   function handleChange(e) {
     const { name, value, type, checked } = e.target;
@@ -112,6 +117,9 @@ export default function App() {
             value={formData.country}
             onChange={handleChange}
           >
+            <option value="" disabled>
+              Select Your Country
+            </option>
             {countries.map((c) => (
               <option key={c} value={c}>
                 {c}
