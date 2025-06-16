@@ -51,10 +51,6 @@ The app will run at `http://localhost:3000`
 
 ---
 
-## 📸 Screenshots
-
-![Form Screenshot](https://via.placeholder.com/600x400)
-
 ---
 
 ## ✅ TODO
@@ -63,12 +59,6 @@ The app will run at `http://localhost:3000`
 * Integrate with backend / Firebase
 * Enable dark mode switch
 * Store form data to localStorage
-
----
-
-## 📃 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
